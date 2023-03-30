@@ -1,0 +1,48 @@
+.input_add {
+  /* border: 2px solid peru; */
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+input[type="text"] {
+  /* border: 2px solid red; */
+  border: none;
+  border-bottom: 3px solid #0d80fe;
+  background: transparent;
+  margin-right: 2rem;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  text-align: center;
+  width: 80%;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+.add_button {
+  /* border: 2px solid red; */
+  /* border: none; */
+  border-radius: 50%;
+  background-color: #0d80fe;
+  color: white;
+  font-size: 2rem;
+  width: 3rem;
+  min-height: 3rem;
+  cursor: pointer;
+}
+.add_button:hover {
+  background-color: #3dff43;
+}
+.ordered_list {
+  /* border: 2px solid green; */
+  margin: 0 0.5rem 0.5rem 0.5rem;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  height: 100%;
+}
+
+@media (min-width: 100px) and (max-width: 1200px) {
+  input[type="text"] {
+    width: auto;
+  }
+  .add_button {
+    width: auto;
+  }
+}

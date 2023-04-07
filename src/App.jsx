@@ -1,10 +1,14 @@
 import React from "react";
-import ToDoApp from "./components/ToDoApp";
+import Input from "./components/Input";
+
+import "./App.css";
+import "./styles/Input.css";
+import "./styles/Task.css";
 
 const App = () => {
   return (
     <>
-      <ToDoApp />
+      <Input />
     </>
   );
 };
